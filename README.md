@@ -24,11 +24,15 @@ Une application Node.js qui intègre Kafka pour le traitement de flux de donnée
 
 ```bash
 # 1. Cloner le dépôt
-git clone https://github.com/medalimab/kafka-node-app
-cd kafka-node-app
+git clone https://github.com/medalimab/kafka-node-app1
+cd kafka-node-app1
 
-# 2. Lancer les services avec Docker
+# 2. Installer les dépendances
+npm install
+
+# 3. Lancer les services avec Docker
 docker-compose up --build
+```
 
 🌐 Accès aux Interfaces
 🔹 Application Web: http://localhost:3000
